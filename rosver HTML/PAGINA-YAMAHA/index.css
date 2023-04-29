@@ -1,0 +1,20 @@
+
+.encabezado{
+    background-color: black;
+    text-align: right;
+}
+
+.encabezado span {
+  color: white;
+  margin-left: 10px;
+}
+
+.logo {
+    max-width: 150px ;
+}
+
+.iconos {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
