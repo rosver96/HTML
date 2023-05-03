@@ -1,0 +1,46 @@
+
+
+.header{
+    text-align: center;
+    font-size: 40px;
+    padding: 2em;
+}
+
+.nav {
+    text-align: center;
+    background-color: blue;
+    font-size: 40px;
+    padding: 2em;
+}
+.nav-item1{
+    padding: 90px;
+}
+
+.section-article{
+    background-color: blanchedalmond;
+    text-align: start;
+    background-color:none;
+    font-size: 40px;
+    padding: 2em;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+}
+
+.section-lateral{
+    text-align: center;
+    font-size: 40px;
+    padding: 2em;
+    display: grid;
+     
+}
+
+.footer{
+    text-align: center;
+    background-color:red;
+    font-size: 40px;
+    padding: 2em;
+}
