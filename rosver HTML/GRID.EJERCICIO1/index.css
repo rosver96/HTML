@@ -1,0 +1,46 @@
+/* justify-content:space arround         
+align-content:center */
+/* grid area
+display grid
+grid-template-are;auto,auto,auto */
+
+*{
+    padding: 0;
+    border: 0;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    height: 500px;
+    width: 500px;
+    gap: 10px;
+    text-align: center;
+    margin: 100px 500px;
+
+}
+
+.grid-item{
+    border: 5px;
+    padding: 25px;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid black;
+}
+/* 
+para el grid (area)  1/ comienzo de filas
+                     2/ comienzo de columnas
+                     3/final de filas
+                     4/ final de columnas */
+.item2{
+    grid-area: 1/ 2/ 3/ 4;
+}
+
+.item3{
+    grid-area: 2/ 1/ 5/ 2;
+}
+
+.item8{
+    grid-area: 5/ 1/ 6/ 4;
+}
